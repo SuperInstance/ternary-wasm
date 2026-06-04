@@ -1,0 +1,16 @@
+[package]
+name = "ternary-wasm"
+version = "0.1.0"
+edition = "2021"
+description = "Ternary agent system compiled to WebAssembly for browser-based intelligence"
+license = "MIT"
+repository = "https://github.com/SuperInstance/ternary-wasm"
+keywords = ["ternary", "wasm", "webassembly", "spreadsheet", "agent"]
+categories = ["wasm", "no-std"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["std"]
+std = []
