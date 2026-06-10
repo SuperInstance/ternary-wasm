@@ -1,3 +1,6 @@
 /target
 Cargo.lock
 target/
+.env
+credentials.*
+*.secret
